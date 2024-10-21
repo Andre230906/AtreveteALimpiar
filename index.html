@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtreveteALimpiar - El Buen Uso de los Baños</title>
+    <link rel="stylesheet" href="Template/css/style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        #particles-js {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 150;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="cursor-follower"></div>
+    <div id="geometric-background"></div>
+    
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#objetivo" class="nav-link">Nuestro Objetivo</a></li>
+                <li><a href="#guia" class="nav-link">Guía de Buen Uso</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="section">
+            <h1 class="animated-title">¡Bienvenido a AtreveteALimpiar!</h1>
+            <p class="subtitle">Porque cada acción cuenta para tener un baño limpio y adecuado para todos.</p>
+            <h2 class="animated-title">El Buen Uso de los Baños Públicos</h2>
+            <p class="subtitle">Descubre cómo tu pequeña acción puede hacer una gran diferencia.</p>
+        </section>
+
+        <section id="objetivo" class="section">
+            <h2 class="section-title">Nuestro Objetivo</h2>
+            <div class="objective-container">
+                <p class="objective-text">AtreveteALimpiar es una iniciativa creada para promover el uso responsable de los baños públicos, fomentando una cultura de limpieza y respeto hacia el medio ambiente y los espacios compartidos.</p>
+                <p class="objective-text">Queremos que más personas se sumen a este movimiento para que juntos podamos cuidar los recursos naturales y mantener los espacios limpios y agradables para todos.</p>
+            </div>
+            <div class="gallery">
+                <img src="Assets/img/imagen3.jpg" class="gallery-item" onclick="openModal(this)" />
+            </div>
+            
+
+            
+        </section>
+
+        <section id="guia" class="section">
+            <h2 class="section-title">Guía para el Buen Uso de los Baños</h2>
+            <div class="guide-container">
+                <article class="guide-item" data-index="1">
+                    <h3>1. Respeta el espacio</h3>
+                    <p>No pintes las paredes ni las puertas. Es fundamental tener cultura y respeto hacia los baños públicos, los cuales están al servicio de todos.</p>
+                </article>
+                <article class="guide-item" data-index="2">
+                    <h3>2. Mantenlo limpio</h3>
+                    <p>Nuestros baños se limpian con regularidad, pero es esencial que cada usuario contribuya a mantenerlos limpios durante más tiempo. Si ensucias algo, límpialo.</p>
+                </article>
+                <article class="guide-item" data-index="3">
+                    <h3>3. Ahorra agua</h3>
+                    <p>No desperdicies agua. Si no estás utilizando la llave, ciérrala. Ahorra agua y contribuye al cuidado del medio ambiente.</p>
+                </article>
+                <article class="guide-item" data-index="4">
+                    <h3>4. Desecha correctamente</h3>
+                    <p>Bota tu basura adecuadamente, no arrojes papeles u otros objetos al inodoro. Los baños no son un basurero, respeta los puntos de recolección.</p>
+                </article>
+            </div>
+            <div class="video-container">
+                <video id="video-promo" src="/Assets/videos/Video.mp4"   ></video>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <div class="form-card1">
+                <div class="form-card2">
+                    <form id="contact-form" class="form">
+                        <p class="form-heading">¡Contáctanos!</p>
+        
+                        <div class="form-field">
+                            <input required="" placeholder="Tu nombre" class="input-field" type="text" id="name" name="name" />
+                        </div>
+        
+                        <div class="form-field">
+                            <input required="" placeholder="Tu correo" class="input-field" type="email" id="email" name="email" />
+                        </div>
+        
+                        <div class="form-field">
+                            <input required="" placeholder="Asunto" class="input-field" type="text" id="subject" name="subject" />
+                        </div>
+        
+                        <div class="form-field">
+                            <textarea required="" placeholder="Tu mensaje" cols="30" rows="3" class="input-field" id="message" name="message"></textarea>
+                        </div>
+        
+                        <button type="submit" class="sendMessage-btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AtreveteALimpiar - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Template/js/main.js"></script>
+    <script src="Template/js/particles.js"></script> 
+</body>
+</html>
